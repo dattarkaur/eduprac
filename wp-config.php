@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'dattarwp' );
 
 /** Database username */
-define( 'DB_USER', 'dattar-kaur' );
+define( 'DB_USER', 'dattar' );
 
 /** Database password */
 define( 'DB_PASSWORD', '123456' );
