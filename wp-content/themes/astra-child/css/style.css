@@ -1,0 +1,223 @@
+/* site css */
+ .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .heading {
+    background-color:lightgray;
+  }
+   .first,.second{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color:rgb(240, 211, 211); */
+    padding: 20px;
+  }
+ 
+  /* Client */
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #343A40;
+    color: white;
+    position:fixed ;
+    left: 0;
+    top: 0;
+    padding: 20px;
+  }
+  /* Sidebar Header */
+  .sidebar-header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  /* Sidebar Menu */
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sidebar-menu li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .sidebar-menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  .sidebar-menu li a:hover {
+    background: #495057;
+    padding: 15px;
+  }
+  /* Content Styling */
+  .content {
+    margin-left: 260px;
+    padding: 20px;
+  }
+  .main-section{
+    margin-left: 250px;
+  }
+  .client-header{
+    margin-left: 250px;
+  }
+
+/* Navbar css */
+    /* Style the menu container */
+     .custom-menu-class {
+    padding: 10px;
+    text-align: center; /* Center align menu */
+}
+
+/* Style menu items */
+.custom-menu-class li {
+    list-style: none;
+    display: inline-block; /* Horizontal layout */
+    margin: 0 15px; /* Spacing between menu items */
+ 
+}
+
+/* Style menu links */
+.custom-menu-class a {
+    text-decoration: none;
+    color: white; /* Text color */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Hover effects */
+.custom-menu-class a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+/* Style active menu item */
+.custom-menu-class .current-menu-item a {
+    color: #f11010; /* Highlight active item */
+    font-weight: bold;
+}
+
+
+
+/* footer css */
+.footer-menu-class {
+    list-style: none;
+    justify-content: center; /* Center the menu items */
+    padding: 5px;
+    margin-top: 21px;
+   
+}
+
+.footer-menu-class a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+.footer-menu-class li {
+  margin-bottom: 10px;
+  margin-left: -50px;
+}
+
+.footer-menu-class a:hover {
+    color: #f8300d; /* Change color on hover */
+}
+
+/* Create account */
+
+
+
+label.form-check-label.user-type {
+    color: rgb(226, 150, 150);
+}
+.has-error input {
+    border:2px solid  rgb(235, 117, 117);
+}
+
+
+
+/* post show */
+
+.service-list {
+  margin: 15px 0;
+}
+.service-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.service-item h2 {
+  margin: 0 0 10px;
+}
+.service-content {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the form container */
+.wpcf7-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* Style input fields */
+.wpcf7-form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style submit button */
+.wpcf7-submit {
+    width: 100%;
+    padding: 12px;
+    background: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.wpcf7-submit:hover {
+    background: #dd9194;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .sec-img{
+    width: 100%;
+    height:100%;
+    }
+    .header-text{
+    font-size:11px;
+    margin-top:2rem;
+    }
+    .marque-img{
+    display:none;
+    }
+}
+@media screen and (max-width: 320px){
+    .line-text{
+    line-height: 16px;
+    margin-top: -4px;
+    }
+  
+}
